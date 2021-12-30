@@ -1,0 +1,6 @@
+{:deps {orangefoxcollective/clj-migratus {:mvn/version "0.1.0"}
+        mysql/mysql-connector-java       {:mvn/version "8.0.27"}}
+ :aliases
+ {:migratus {:extra-deps
+             {orangefoxcollective/clj-migratus {:mvn/version "0.1.0"}}
+             :main-opts ["-m" "clj-migratus.core"]}}}

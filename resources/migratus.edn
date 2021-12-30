@@ -1,0 +1,7 @@
+{:store :database
+ :migration-dir "migrations"
+ :db {:classname "com.mysql.jdbc.Driver"
+      :subprotocol "mysql"
+      :subname "//localhost/mtest"
+      :user "root"
+      :password "1234"}}
